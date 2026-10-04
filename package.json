@@ -1,0 +1,19 @@
+{
+  "name": "major-project",
+  "version": "1.0.0",
+  "description": "NovelX - online novel store",
+  "main": "server.js",
+  "scripts": {
+    "build": "npm install --prefix ecommercefrontend && npm run build --prefix ecommercefrontend",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^8.9.0"
+  }
+}
